@@ -1,13 +1,10 @@
 # Logs
 logs
 *.log
-npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
 dist
 dist-ssr
 dist-electron
@@ -25,9 +22,15 @@ release
 *.sw?
 
 #lockfile
-package-lock.json
-pnpm-lock.yaml
-yarn.lock
 /test-results/
 /playwright-report/
 /playwright/.cache/
+
+# yarn berry
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

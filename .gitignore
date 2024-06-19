@@ -5,6 +5,8 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+# vite
+.vite/cache/
 dist
 dist-ssr
 dist-electron

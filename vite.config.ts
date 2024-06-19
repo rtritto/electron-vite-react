@@ -71,6 +71,7 @@ export default defineConfig(({ command }) => {
         port: +url.port,
       }
     })(),
+    cacheDir: '.vite/cache',
     clearScreen: false,
   }
 })
